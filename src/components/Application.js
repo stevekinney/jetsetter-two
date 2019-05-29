@@ -2,8 +2,6 @@ import React from 'react';
 import NewItem from './NewItem';
 import Items from './Items';
 
-import './Application.css';
-
 const Application = () => {
   return (
     <div className="Application">

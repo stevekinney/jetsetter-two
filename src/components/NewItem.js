@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import './NewItem.css';
-
 class NewItem extends Component {
   state = { value: '' };
 

@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import './Filter.css';
-
 class Filter extends Component {
   handleChange = event => {
     const { onChange } = this.props;

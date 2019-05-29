@@ -29,3 +29,36 @@ button.full-width, .button.full-width, input[type="submit"].full-width {
   width: 100%;
   margin: 1em 0;
 }
+
+.Application {
+  margin: auto;
+  max-width: 400px;
+}
+
+.Items-searchTerm {
+  background-color: white;
+  margin-bottom: 0.5em;
+  width: 100%;
+}
+
+.Item-remove {
+  background-color: white;
+  color: #f65e81;
+  border: none;
+  margin-left: 1em;
+  outline: none;
+  padding: 0;
+}
+
+.Item-remove:hover {
+  background-color: white;
+  text-decoration: underline;
+}
+
+.NewItem {
+  display: flex;
+}
+
+.NewItem-input {
+  width: 100%;
+}
