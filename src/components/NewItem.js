@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import uniqueId from 'lodash/uniqueId';
 
 import './NewItem.css';
 
@@ -15,6 +14,8 @@ class NewItem extends Component {
     const { value } = this.state;
 
     event.preventDefault();
+
+    console.log({ onSubmit, value });
 
     // Do something when a new value is submitted.
 
