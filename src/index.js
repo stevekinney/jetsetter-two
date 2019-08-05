@@ -5,4 +5,13 @@ import Application from './components/Application';
 
 import './index.css';
 
-ReactDOM.render(<Application />, document.getElementById('root'));
+import { Provider } from 'mobx-react';
+import ItemList from './store/ItemStore';
+
+const itemList = new ItemList();
+
+ReactDOM.render(
+    <Provider itemList={itemList}>
+        <Application />     
+    </Provider>
+, document.getElementById('root'));

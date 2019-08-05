@@ -1,13 +1,14 @@
 import React from 'react';
 
 const Item = ({ item }) => {
+  console.log(item);
   return (
     <article className="Item">
       <label htmlFor={item.id}>
         <input
           type="checkbox"
           checked={item.packed}
-          onChange={() => {}}
+          onChange={item.toggle}
           id={item.id}
         />
         {item.value}
