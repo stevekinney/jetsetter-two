@@ -1,3 +1,7 @@
+## Course
+
+This project was built to teach the [State Managment in Redux & MobX Course](https://frontendmasters.com/courses/redux-mobx/) for Frontend Masters.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
